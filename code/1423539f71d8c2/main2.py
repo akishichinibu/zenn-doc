@@ -91,7 +91,7 @@ async def echo_stream3(message: str):
     t = 0
     while True:
         await asyncio.sleep(1)
-        yield Echo.create(
+        yield ReverseEcho.create(
             EchoPayload(
                 message=message[::-1],
             )
