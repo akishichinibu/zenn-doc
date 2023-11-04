@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "1423539f71d8c2"
+version = "0.1.0"
+description = ""
+authors = ["akishichinibu <akishichinibu@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.104.1"
+pydantic = "^2.4.2"
+sse-starlette = "^1.6.5"
+uvicorn = "^0.23.2"
+camel-converter = "^3.1.0"
+aiostream = "^0.5.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
