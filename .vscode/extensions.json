@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "bungcip.better-toml",
+        "IronGeek.vscode-env",
+        "ms-python.black-formatter",
+        "ms-python.vscode-pylance",
+        "ms-python.mypy-type-checker",
+        "ms-azuretools.vscode-docker",
+        "exiasr.hadolint",
+    ]
+}
